@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <>
       <input
-        className={`w-96 cursor-pointer pointer-events-auto bg-app-orange rounded-2xl py-4 ${
+        className={`w-96 cursor-pointer pointer-events-auto bg-app-orange rounded-2xl py-4 active:bg-[#FF8317] ${
           responsive && 'w-full'
         }`}
         type={type}

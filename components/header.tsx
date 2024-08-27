@@ -10,7 +10,7 @@ const Header = () => {
 
       <a href='#choose-name'>
         <input
-          className='bg-app-blue cursor-pointer appearance-none py-[11px] px-6 font-semibold text-text leading-tight text-white rounded-full border-gray-200'
+          className='bg-app-blue active:bg-blue-700 cursor-pointer appearance-none py-[11px] px-6 font-semibold text-text leading-tight text-white rounded-full border-gray-200'
           type='button'
           name='headerButton'
           id='headerGetVpn'
