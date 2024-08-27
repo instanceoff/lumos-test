@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from './button';
 import LockIcon from '../public/lock.svg';
 import Cross from '../public/cross.svg';

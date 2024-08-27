@@ -1,11 +1,8 @@
-import React from 'react';
 import Image from 'next/image';
 import HierarchyIcon from '../public/hierarchy-square-2.svg';
 import LocationIcon from '../public/location.svg';
 
-interface InfoProps {}
-
-const Info: React.FC<InfoProps> = () => {
+const Info = () => {
   return (
     <div className='px-4 w-full max-w-4xl mx-auto'>
       <div className='w-full  rounded-2xl shadow-app py-[15px] px-[42px] '>

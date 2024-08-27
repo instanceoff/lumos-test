@@ -2,9 +2,7 @@ import Image from 'next/image';
 import LeftWing from '../public/left.png';
 import RightWing from '../public/right.png';
 
-interface TrustedProps {}
-
-const Trusted: React.FC<TrustedProps> = () => {
+const Trusted: React.FC = () => {
   return (
     <>
       <div className='flex items-center gap-2'>
