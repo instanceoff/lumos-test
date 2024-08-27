@@ -25,14 +25,14 @@ export default async function Home({ searchParams }: SearchParamProps) {
         }`}
       >
         <section className='flex flex-col items-center w-full mb-6 mt-[75px]'>
-          <h1 className='text-app-black text-center font-bold text-large mx-4 mt-3 '>
+          <h1 className='text-app-black text-center font-bold text-large'>
             Acces{' '}
             <span className='text-app-blue'>
               everything <br /> securely
             </span>{' '}
             with <br /> VPN
           </h1>
-          <div className='mb-4 relative w-full h-[230px] max-w-[540px]'>
+          <div className='mb-4 relative w-full h-[230px] max-w-[600px]'>
             <Image
               objectFit='cover'
               layout='fill'
@@ -44,14 +44,14 @@ export default async function Home({ searchParams }: SearchParamProps) {
             <Button value='Get VPN' />
           </a>
         </section>
-        <section className='mb-6 mx-auto'>
+        <section className='w-full flex flex-col items-center gap-6 mb-10 md:mb-[72px]'>
           <Trusted />
+          <Info />
+          <p className='text-body  text-app-grey font-medium text-center'>
+            VPN-your <span className='text-app-blue'>ultimate</span> solution
+            for a private and secure online experience!
+          </p>
         </section>
-        <Info />
-        <p className='text-body px-4 mb-10 md:mb-[72px] text-app-grey font-medium text-center mx-auto mt-6'>
-          VPN-your <span className='text-app-blue'>ultimate</span> solution for
-          a private and secure online experience!
-        </p>
         <section className='grid grid-cols-1 md:grid-cols-2 '>
           <Benefit type='content' />
           <Benefit type='speed' />
@@ -62,7 +62,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
             <Divider />
           </div>
         </section>
-        <h3 className='text-titleTwo text-app-blue font-bold mx-auto mt-6 mb-10 md:mb-[72px]'>
+        <h3 className='text-titleTwo text-app-blue font-bold mt-6 mb-10 md:mb-[72px]'>
           Millions of people trust us!
         </h3>
         <section className='w-full' id='choose-name'>
